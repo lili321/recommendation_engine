@@ -1,15 +1,3 @@
 # recommendation_engine
-This recommendation system implements a content-based search algorithm that recommends restaurants with similar geolocations and categories to the user. 
-
-Front End:
-
-•	Developed an interactive web page (HTML/CSS/JavaScript) for users to search restaurants, update preference and view recommended restaurants
-
-Back End:
-
-•	Developed a web service using (Java servlet, REST API) to fetch restaurant data from Yelp 
-
-•	Utilized MySQL/MongoDB to store user preference and restaurant information
-
-•	Improved precision of recommendation by ordering restaurants based on distance, stars and matched categories
+This project develops a content-based search algorithm that recommends restaurants with similar geolocations and categories to the user. A Java serlet/web container was created with Tomcat. The data was fetched from Yelp using its Rest API. NoSQL database MongoDB was used to store the data from Yelp as well as the favorite items and browsing history by the user. The front end features an interactive web page by AJAX. The precision of recommendation was improved by ordering restaurants based on distance, stars and matched categories.
 
